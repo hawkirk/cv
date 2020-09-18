@@ -1,11 +1,7 @@
-# CV Lucas Clemente #
+# CV 
 
-[See it in action](https://clemente.io)
+Resume rewritten in html to allow more control. Template taken from [clemente.io](clemente.io). 
 
-I was bored of using Pages / Word / LaTeX to write my CVs, so I tried HTML. It was fun! The PDF version was created using Chrome.
+## License
 
-Check out the source and fork it!
-
-## License ##
-
-[MIT](LICENSE.txt)
+[MIT](docs/LICENSE.txt)
