@@ -15,11 +15,6 @@ var cssFiles = compileSass(
   {'outputStyle': 'compressed'}
 );
 
-// var faFiles = pickFiles('bower_components/font-awesome/fonts', {
-//   srcDir: '/',
-//   destDir: '/fonts'
-// });
-
 var fontFiles = pickFiles('fonts', {
   srcDir: '/',
   destDir: '/fonts'
