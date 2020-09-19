@@ -1,9 +1,8 @@
 $fa-font-path: 'fonts';
 
-@import "font-awesome/scss/variables";
-@import "font-awesome/scss/mixins";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/variables";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/mixins";
 
-// @import "font-awesome/scss/path";
 
 @font-face {
   font-family: 'FontAwesome';
@@ -13,12 +12,12 @@ $fa-font-path: 'fonts';
 }
 
 
-@import "font-awesome/scss/core";
+@import "../font-awesome/scss/core";
 // @import "font-awesome/scss/larger";
 // @import "font-awesome/scss/fixed-width";
-@import "font-awesome/scss/list";
+@import "../font-awesome/scss/list";
 // @import "font-awesome/scss/bordered-pulled";
 // @import "font-awesome/scss/animated";
 // @import "font-awesome/scss/rotated-flipped";
 // @import "font-awesome/scss/stacked";
-@import "font-awesome/scss/icons";
+@import "../font-awesome/scss/icons";

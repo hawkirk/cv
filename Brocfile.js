@@ -7,11 +7,11 @@ var publicFiles = 'public';
 var cssFiles = compileSass(
   [
     'styles',
-    'bower_components',
-    'bower_components/font-awesome/scss'
-  ],
-  'app.scss',
-  'app.css',
+    'node_modules/',
+    'node_modules/@fortawesome/fontawesome-free/scss'
+  ], // nodes
+  'app.scss', // main css file
+  'app.css', // output
   {'outputStyle': 'compressed'}
 );
 
