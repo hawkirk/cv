@@ -1,6 +1,6 @@
 # CV 
 
-Resume rewritten in html to allow more control. Template taken from [clemente.io](clemente.io). 
+Resume rewritten in html to allow more control. Template taken from [clemente.io](https://clemente.io). 
 
 ## License
 
