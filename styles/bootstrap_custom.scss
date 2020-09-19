@@ -3,55 +3,52 @@
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/../bs/blob/master/LICENSE)
  */
-
-// Core variables and mixins
-@import "../bs/scss/functions";
-@import "../bs/scss/variables";
-@import "../bs/scss/mixins";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
 
 // Reset and dependencies
-//@import "../bs/scss/normalize";
-@import "../bs/scss/print";
+@import "../node_modules/bootstrap/scss/normalize";
+@import "../node_modules/bootstrap/scss/print";
 
 // Core CSS
-@import "../bs/scss/reboot";
-@import "../bs/scss/type";
-// @import "../bs/scss/images";
-// @import "../bs/scss/code";
-@import "../bs/scss/grid";
-// @import "../bs/scss/tables";
-// @import "../bs/scss/forms";
-@import "../bs/scss/buttons";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+// @import "../node_modules/bootstrap/scss/images";
+// @import "../node_modules/bootstrap/scss/code";
+@import "../node_modules/bootstrap/scss/grid";
+// @import "../node_modules/bootstrap/scss/tables";
+// @import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/buttons";
 
 // Components
-// @import "../bs/scss/animation";
-// @import "../bs/scss/dropdown";
-// @import "../bs/scss/button-group";
-// @import "../bs/scss/input-group";
-// @import "../bs/scss/custom-forms";
-// @import "../bs/scss/nav";
-// @import "../bs/scss/navbar";
-// @import "../bs/scss/card";
-// @import "../bs/scss/breadcrumb";
-// @import "../bs/scss/pagination";
-// @import "../bs/scss/pager";
-//@import "../bs/scss/labels";
-// @import "../bs/scss/jumbotron";
-// @import "../bs/scss/alert";
-// @import "../bs/scss/progress";
-// @import "../bs/scss/media";
-// @import "../bs/scss/list-group";
-// @import "../bs/scss/responsive-embed";
-// @import "../bs/scss/close";
+// @import "../node_modules/bootstrap/scss/animation";
+// @import "../node_modules/bootstrap/scss/dropdown";
+// @import "../node_modules/bootstrap/scss/button-group";
+// @import "../node_modules/bootstrap/scss/input-group";
+// @import "../node_modules/bootstrap/scss/custom-forms";
+// @import "../node_modules/bootstrap/scss/nav";
+// @import "../node_modules/bootstrap/scss/navbar";
+// @import "../node_modules/bootstrap/scss/card";
+// @import "../node_modules/bootstrap/scss/breadcrumb";
+// @import "../node_modules/bootstrap/scss/pagination";
+// @import "../node_modules/bootstrap/scss/pager";
+@import "../node_modules/bootstrap/scss/labels";
+// @import "../node_modules/bootstrap/scss/jumbotron";
+// @import "../node_modules/bootstrap/scss/alert";
+// @import "../node_modules/bootstrap/scss/progress";
+// @import "../node_modules/bootstrap/scss/media";
+// @import "../node_modules/bootstrap/scss/list-group";
+// @import "../node_modules/bootstrap/scss/responsive-embed";
+// @import "../node_modules/bootstrap/scss/close";
 
 // Components w/ JavaScript
-// @import "../bs/scss/modal";
-// @import "../bs/scss/tooltip";
-// @import "../bs/scss/popover";
-// @import "../bs/scss/carousel";
+// @import "../node_modules/bootstrap/scss/modal";
+// @import "../node_modules/bootstrap/scss/tooltip";
+// @import "../node_modules/bootstrap/scss/popover";
+// @import "../node_modules/bootstrap/scss/carousel";
 
 // Utility classes
-@import "../bs/scss/utilities";
-// @import "../bs/scss/utilities-background";
-// @import "../bs/scss/utilities-spacing";
-//@import "../bs/scss/utilities-responsive";
+@import "../node_modules/bootstrap/scss/utilities";
+// @import "../node_modules/bootstrap/scss/utilities-background";
+// @import "../node_modules/bootstrap/scss/utilities-spacing";
+@import "../node_modules/bootstrap/scss/utilities-responsive";

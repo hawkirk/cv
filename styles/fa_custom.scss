@@ -12,12 +12,15 @@ $fa-font-path: 'fonts';
 }
 
 
-@import "../font-awesome/scss/core";
+//@import "../font-awesome/scss/core";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/core";
 // @import "font-awesome/scss/larger";
 // @import "font-awesome/scss/fixed-width";
-@import "../font-awesome/scss/list";
+//@import "../font-awesome/scss/list";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/list";
 // @import "font-awesome/scss/bordered-pulled";
 // @import "font-awesome/scss/animated";
 // @import "font-awesome/scss/rotated-flipped";
 // @import "font-awesome/scss/stacked";
-@import "../font-awesome/scss/icons";
+//@import "../font-awesome/scss/icons";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/icons";
