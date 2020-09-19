@@ -8,7 +8,16 @@ $font-size-root: 15px;
 $line-color: #ddd;
 $grid-gutter-width: 4rem;
 
-@import 'bootstrap_custom';
+//@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/code";
+@import "../node_modules/bootstrap/scss/grid";
 
 @import 'fa_custom';
 @import 'fonts';
@@ -125,7 +134,7 @@ section {
     margin-left: 0.5rem;
   }
 
-  $color-default:     lighten($label-default-bg, 20%);
+  $color-default:     lighten(#045088, 20%);
   $color-cpp:         #045088;
   $color-ember:       #f23818;
   $color-rails:       #c00;
@@ -134,7 +143,6 @@ section {
   $color-python:      darken(#ffe260, 25%);
 
   @mixin label($color) {
-    @include label-variant($color-default);
     &:hover {
       background-color: $color;
       transition: all 0.1s ease-in-out;

@@ -1,6 +1,14 @@
 {
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
-    "bootstrap": "^4.5.2"
-  }
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.14.0",
+        "bootstrap": "^4.5.2",
+        "broccoli-funnel": "^3.0.3",
+        "broccoli-merge-trees": "^4.2.0",
+        "broccoli-sass": "zavan/broccoli-sass#update-node-sass",
+        "node-sass": "^4.14.1"
+    },
+    "devDependencies": {
+        "broccoli": "^3.4.2",
+        "broccoli-cli": "^1.0.0"
+    }
 }
