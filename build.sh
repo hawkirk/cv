@@ -1,1 +1,1 @@
-sass --watch ./styles/app.scss app.css
+sass --watch --no-source-map ./styles/app.scss app.css
