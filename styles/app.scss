@@ -10,19 +10,6 @@ $grid-gutter-width: 4rem;
 
 @import 'bootstrap_custom';
 
-// Import all of bootstrap
-//@import "../node_modules/bootstrap/scss/bootstrap";
-//@import "../node_modules/bootstrap/scss/functions";
-//@import "../node_modules/bootstrap/scss/variables";
-//@import "../node_modules/bootstrap/scss/mixins";
-//
-//@import "../node_modules/bootstrap/scss/reboot";
-//@import "../node_modules/bootstrap/scss/type";
-//@import "../node_modules/bootstrap/scss/images";
-//@import "../node_modules/bootstrap/scss/code";
-//@import "../node_modules/bootstrap/scss/grid";
-//@import "../node_modules/bootstrap/scss/labels";
-
 @import 'fa_custom';
 @import 'fonts';
 
@@ -54,13 +41,20 @@ h1 {
   }
 }
 
-h2 {
+h2 { 
+  font-family: $headings-font-family;
+  font-size: 1.8em;
+  font-weight: 300;
+
+}
+
+h3 {
   font-family: $headings-font-family;
   font-size: 1.3em;
   font-weight: 400;
 }
 
-aside h2 {
+aside h3 {
   margin-bottom: 1.5rem;
   margin-top: 2rem;
 }
@@ -157,6 +151,9 @@ section {
   }
 
   .label-cpp {
+    @include label($color-cpp);
+  }
+  .label-c {
     @include label($color-cpp);
   }
 
