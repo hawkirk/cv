@@ -167,6 +167,9 @@ section {
   .label-cpp {
     @include label($color-cpp);
   }
+  .label-c {
+    @include label($color-cpp);
+  }
 
   .label-ember {
     @include label($color-ember);
