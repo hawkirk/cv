@@ -6,9 +6,15 @@
     "repository": "git@github.com:baileywickham/cv.git",
     "author": "baileywickham <baileywickham@gmail.com>",
     "license": "MIT",
-
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.14.0",
         "bootstrap": "4.0.0-alpha.2"
+    },
+    "devDependencies": {
+        "sass": "^1.26.11"
+    },
+    "scripts": {
+        "sass" : "./node_modules/sass/sass.js --no-source-map ./styles/app.scss app.css",
+        "build" : "yarn run sass && docker build -t rtopdf . && docker run --mount type=bind,source=\"$(pwd)\"/public,target=/home/root/public -it rtopdf"
     }
 }
