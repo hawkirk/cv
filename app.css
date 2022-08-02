@@ -5,8 +5,14 @@
  * Licensed under MIT (https://github.com/twbs/../bs/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 html {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -329,10 +335,10 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  color: #373a3c;
+  color: #121212;
   background-color: #fff;
 }
 
@@ -503,7 +509,7 @@ output {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -2214,7 +2220,7 @@ input[type=button].btn-block {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: bold;
+  font-weight: thin;
   line-height: 1;
   color: #fff;
   text-align: center;
@@ -8490,22 +8496,22 @@ readers do not read off random characters that represent icons */
 }
 
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Inter";
   font-weight: 300;
   font-style: normal;
-  src: url("fonts/Open-Sans-300.woff");
+  src: url("fonts/Inter-Regular.woff");
 }
 @font-face {
-  font-family: "Open Sans";
+  font-family: "Inter";
   font-weight: 400;
   font-style: normal;
-  src: url("fonts/Open-Sans-regular.woff");
+  src: url("fonts/Inter-Regular.woff");
 }
 @font-face {
-  font-family: "Source Sans Pro";
+  font-family: "Inter";
   font-weight: 400;
   font-style: normal;
-  src: url("fonts/Source-Sans-Pro-regular.woff");
+  src: url("fonts/Inter-Regular.woff");
 }
 body {
   margin-top: 2rem;
@@ -8533,13 +8539,13 @@ h1 {
   }
 }
 h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.8em;
   font-weight: 300;
 }
 
 h3 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.3em;
   font-weight: 400;
 }
@@ -8565,7 +8571,7 @@ footer {
   }
 }
 dt {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
@@ -8602,8 +8608,12 @@ section .duration {
 section p {
   margin-bottom: 0.5rem;
 }
+section .title {
+  font-family: "Inter", sans-serif;
+}
+
 section .location {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 section .labels {
   font-size: 1rem;
@@ -8677,6 +8687,36 @@ section .label-python[href]:focus, section .label-python[href]:hover {
 }
 section .label-python:hover {
   background-color: #e0b700;
+  transition: all 0.1s ease-in-out;
+}
+section .label-html {
+  background-color: #b7bdc1;
+}
+section .label-html[href]:focus, section .label-html[href]:hover {
+  background-color: #9ca3a9;
+}
+section .label-html:hover {
+  background-color: #E44D26;
+  transition: all 0.1s ease-in-out;
+}
+section .label-css {
+  background-color: #b7bdc1;
+}
+section .label-css[href]:focus, section .label-html[href]:hover {
+  background-color: #9ca3a9;
+}
+section .label-css:hover {
+  background-color: #2965f1;
+  transition: all 0.1s ease-in-out;
+}
+section .label-sql {
+  background-color: #b7bdc1;
+}
+section .label-sql[href]:focus, section .label-html[href]:hover {
+  background-color: #9ca3a9;
+}
+section .label-sql:hover {
+  background-color: #0064a5;
   transition: all 0.1s ease-in-out;
 }
 

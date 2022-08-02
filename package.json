@@ -1,10 +1,10 @@
 {
     "name": "cv",
     "version": "1.0.0",
-    "description": "My cv",
+    "description": "my cv",
     "main": "index.js",
-    "repository": "git@github.com:baileywickham/cv.git",
-    "author": "baileywickham <baileywickham@gmail.com>",
+    "repository": "git@github.com:hawkirk/cv.git",
+    "author": "hawkirk <harrison@hawkirk.com>",
     "license": "MIT",
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.14.0",
