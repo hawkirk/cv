@@ -2,13 +2,7 @@
 
 https://hawkirk.com/cv
 
-Resume rewritten in html to allow more control. Template taken from [clemente.io](https://clemente.io).
-
-Uses `yarn` for package management.
-
-Use `yarn install` to install packages, `yarn run build` to compile the css and generate the pdf, or `yarn sass` to just generate the css.
-
-The pdf of the site is generated using the `phantomjs`, a headless webkit browser. It is installed and ran in a docker container.
+Minimalist `HTML` and `CSS` resume template by [clemente.io](https://clemente.io), forked from [baileywickham](https://github.com/baileywickham).
 
 ## License
 
