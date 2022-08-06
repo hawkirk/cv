@@ -344,7 +344,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   color: #121212;
-  background-color: #fff;
+  background-color: #F5F3F0;
 }
 
 [tabindex="-1"]:focus {
@@ -1863,7 +1863,7 @@ fieldset[disabled] a.btn {
 
 .btn-secondary {
   color: #373a3c;
-  background-color: #fff;
+  background-color: #F5F3F0;
   border-color: #ccc;
 }
 .btn-secondary:hover {
