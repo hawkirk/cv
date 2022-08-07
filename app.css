@@ -8724,7 +8724,7 @@ section .label-html:hover {
 section .label-css {
   background-color: #b7bdc1;
 }
-section .label-css[href]:focus, section .label-html[href]:hover {
+section .label-css[href]:focus, section .label-css[href]:hover {
   background-color: #9ca3a9;
 }
 section .label-css:hover {
@@ -8734,33 +8734,51 @@ section .label-css:hover {
 section .label-sql {
   background-color: #b7bdc1;
 }
-section .label-sql[href]:focus, section .label-html[href]:hover {
+section .label-sql[href]:focus, section .label-sql[href]:hover {
   background-color: #9ca3a9;
 }
 section .label-sql:hover {
   background-color: #0064a5;
   transition: all 0.1s ease-in-out;
 }
-
 section .label-airflow {
   background-color: #b7bdc1;
 }
-section .label-airflow[href]:focus, section .label-html[href]:hover {
+section .label-airflow[href]:focus, section .label-airflow[href]:hover {
   background-color: #9ca3a9;
 }
 section .label-airflow:hover {
   background-color: #97b941;
   transition: all 0.1s ease-in-out;
 }
-
 section .label-docker {
   background-color: #b7bdc1;
 }
-section .label-docker[href]:focus, section .label-html[href]:hover {
+section .label-docker[href]:focus, section .label-docker[href]:hover {
   background-color: #9ca3a9;
 }
 section .label-docker:hover {
   background-color: #2883bc;
+  transition: all 0.1s ease-in-out;
+}
+section .label-aws {
+  background-color: #b7bdc1;
+}
+section .label-aws[href]:focus, section .label-aws[href]:hover {
+  background-color: #9ca3a9;
+}
+section .label-aws:hover {
+  background-color: #FF9900;
+  transition: all 0.1s ease-in-out;
+}
+section .label-R {
+  background-color: #b7bdc1;
+}
+section .label-R[href]:focus, section .label-R[href]:hover {
+  background-color: #9ca3a9;
+}
+section .label-R:hover {
+  background-color: #276DC2;
   transition: all 0.1s ease-in-out;
 }
 
