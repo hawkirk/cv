@@ -243,6 +243,11 @@ th {
   font-size: 0.875rem;
 }
 
+.back_button {
+  float: left;
+  padding: 1rem;
+}
+
 @media print {
 
   *,
